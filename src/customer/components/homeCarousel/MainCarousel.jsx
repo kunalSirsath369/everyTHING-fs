@@ -1,7 +1,4 @@
 import React from "react";
-import { mainCarouselData } from "./MainCarouselData";
-import AliceCarousel from "react-alice-carousel";
-import "react-alice-carousel/lib/alice-carousel.css";
 import "./maincaro.css";
 const MainCarousel = () => {
   return (
