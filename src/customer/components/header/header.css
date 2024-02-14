@@ -1,0 +1,55 @@
+.header1{
+   
+color: white;
+}
+.head1{
+   font-weight: 600;
+   
+}
+box:hover{
+  filter: drop-shadow(16px 16px 20px red);
+  
+}
+  .box {
+    
+    width: 200px;
+    height: 200px;
+   
+    animation: loader 5s infinite;
+  }
+  
+  @keyframes loader {
+    0% {
+      translate: 300px 0px;
+      
+     
+    }
+    25% {
+      translate: 300px 300px;
+
+     
+    }
+    50% {
+      translate: 300px 300px;
+      background-color: rgb(252, 9, 90);
+    
+      filter: blur(10px);
+
+      rotate: 45deg;
+      scale:2;
+    }
+    75% {
+      translate: -600px 0px;
+      
+
+      scale: 1;
+    }
+    100%{
+      translate: 200px 0px;
+      rotate:-45deg;
+    }
+  }
+  .shoes:hover {
+    filter: drop-shadow( 6px  10px 20px rgba(255, 0, 0, 0.486));
+    transform: rotate(10deg);
+   }
